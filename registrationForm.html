@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<form>
+
+
+        <label for="forename">First Name:</label>
+        <input name="forename" id="forename" placeholder="Ya Forename" type="text" required>
+        <label for="surname">Second Name:</label>
+        <input name="surname" id = "surname" placeholder="Ya Next'Un" type="text" required>
+
+
+    <div>
+        <label for="male">Male</label>
+        <input name="gender" id="male" type="radio" value="male">
+        <label for "female">Female</label>
+        <input name="gender" id="female" type="radio" value="female">
+        <label for="other">Other</label>
+        <input name="gender" id="other" type="radio" value="other">
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <input name="email" id="email" type="email" placeholder="ya mail, man" required>
+        <label for="password">Password:</label>
+        <input name="password" id="password" type="password" placeholder="secret letts and nums" pattern=".{5,10}" title="between 5 and 10 characs" required>
+    </div>
+
+    <div>
+        <label>Birthday
+            <select name="birthdayD" id="day" placeholder="Day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+            <select name="birthdayM" id="month">
+                <option value="May">May</option>
+                <option value="June">June</option>
+            </select>
+            <select name="birthdayY" id="year">
+                <option value="1981">1981</option>
+                <option value="1982">1982</option>
+            </select>
+        </label>       
+    </div>
+
+    <div>
+        <label for="agree">I agree to the terms</label>
+        <input name="agreement" id ="agree" type="checkbox" value="agreed" required>
+    </div>
+    
+    <button>Register</button>
+
+</form>
+
+</body>
+</html>
