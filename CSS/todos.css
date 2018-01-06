@@ -1,0 +1,26 @@
+body{
+    background: url(bg.jpg);
+    background-size: 500px;
+}
+
+#complete{
+    background: #f1bf48;
+    text-decoration: line-through;
+}
+
+.highlight{
+    background: #ffc6a0
+}
+
+.titleLine{
+    margin: 0 auto;
+    width: 66%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #64431f
+}
+
+.titleBox{
+    background: #E9922F5A
+}

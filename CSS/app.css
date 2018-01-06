@@ -1,0 +1,27 @@
+
+body{
+    background: url(https://thumbs.dreamstime.com/b/seamless-soap-bubbles-pattern-vector-hand-drawn-background-cleaning-bodycare-wallpaper-78376424.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: #532c7a;
+    /* border-color: #b590da;
+    border-style: solid;
+    border-width: 15px; */
+    border: #b590da solid 60px;
+}
+
+li{
+    color: cadetblue;
+}
+
+h4{
+    color: rgba(88, 112, 51, 1);
+}
+
+h4{
+    background: rgba(214, 200, 153, 0.4);
+
+}
