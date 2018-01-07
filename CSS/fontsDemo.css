@@ -1,0 +1,27 @@
+p{
+    font-family: "Raleway", sans-serif;
+}
+
+h1{
+    font-family: "Oxygen";
+    font-size: 5.0em;
+    text-align: center;
+    /* text-decoration: underline; */
+}
+
+body{
+    font-size: 10px;
+}
+
+p{
+    font-size: 2.0em;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    margin: auto 50px;
+}
+
+span{
+    /* font-size: 1.1em; */
+    font-weight: bold;
+    /* text-decoration: overline; */
+}
