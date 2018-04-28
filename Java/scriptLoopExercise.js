@@ -9,6 +9,11 @@ function isEven(num) {
         return false;
     }
 }
+
+function isEvenRefactored(num) {
+    return num % 2 === 0;
+}
+
 // Factorial
 function factorial(num) {
     if(num <= 0) {
@@ -22,6 +27,16 @@ function factorial(num) {
         return num;
     }
 }
+
+function factorialRefactored(num){
+    var result = 1;
+    for(var i = 2;i <= num; i++){
+        result *= i;
+    }
+    return result;
+}
+
+
 //Replace
 function kebabToSnake(str) {
     if(typeof str !== "string") {
